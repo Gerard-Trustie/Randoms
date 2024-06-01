@@ -45,7 +45,7 @@ def main():
     
     # Input fields for YouTube URL and output directory
     youtube_url = st.text_input("Enter YouTube URL")
-    output_dir = st.text_input("Specify output directory", os.path.expanduser("/Users/gerard/Library/CloudStorage/OneDrive-Personal/3. Resources/YoutTube_Notes"))
+    output_dir = st.text_input("Specify output directory", os.path.expanduser("/Users/gerard/Library/CloudStorage/OneDrive-Personal/3. Resources/YouTube_Notes"))
 
     # Button to trigger the process
     if st.button("Extract Wisdom"):
